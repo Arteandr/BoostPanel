@@ -5,8 +5,11 @@ namespace BoostPanel.MVVM.ViewModel
     public class MainViewModel: ObservableObject
     {
         public RelayCommand WingmanViewCommand { get; set; }
+        
+        public RelayCommand SettingsViewCommand { get; set; }
         public RelayCommand CompetitiveViewCommand { get; set; }
-        public WingmanViewModel WingmanVM { get; set; }
+        private WingmanViewModel WingmanVM { get; set; }
+        public SettingsViewModel SettingsVM { get; set; }
 
 
         private object _currentView;
@@ -22,12 +25,21 @@ namespace BoostPanel.MVVM.ViewModel
         public MainViewModel()
         {
             WingmanVM = new WingmanViewModel();
-            CurrentView = WingmanVM;
+            SettingsVM = new SettingsViewModel();
+            
+            // Default screen
+            CurrentView = SettingsVM;
 
             WingmanViewCommand = new RelayCommand(o =>
             {
                 CurrentView = WingmanVM;
             });
+            
+            SettingsViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = SettingsVM;
+            });
+            
 
         }
     }

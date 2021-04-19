@@ -1,4 +1,5 @@
-﻿using System.Windows.Controls;
+﻿using BoostPanel.MVVM.ViewModel;
+using System.Windows.Controls;
 
 namespace BoostPanel.MVVM.View
 {
@@ -7,6 +8,11 @@ namespace BoostPanel.MVVM.View
         public WingmanView()
         {
             InitializeComponent();
+        }
+
+        private void AccountsLoadButton_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            WingmanViewModel.modelAccountsUpload();
         }
     }
 }

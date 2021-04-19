@@ -23,11 +23,14 @@
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="MVVM" t="Include">
           <e p="View" t="Include">
+            <e p="SettingsView.xaml" t="Include" />
+            <e p="SettingsView.xaml.cs" t="Include" />
             <e p="WingmanView.xaml" t="Include" />
             <e p="WingmanView.xaml.cs" t="Include" />
           </e>
           <e p="ViewModel" t="Include">
             <e p="MainViewModel.cs" t="Include" />
+            <e p="SettingsViewModel.cs" t="Include" />
             <e p="WingmanViewModel.cs" t="Include" />
           </e>
         </e>
@@ -39,6 +42,7 @@
             <e p="MainWindow.g.cs" t="Include" />
             <e p="MVVM" t="Include">
               <e p="View" t="Include">
+                <e p="SettingsView.g.cs" t="Include" />
                 <e p="WingmanView.g.cs" t="Include" />
               </e>
             </e>
@@ -48,6 +52,10 @@
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="Server" t="Include">
+          <e p="IPlayer.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
         </e>
         <e p="Theme" t="Include">
           <e p="MenuButtonTheme.xaml" t="Include" />

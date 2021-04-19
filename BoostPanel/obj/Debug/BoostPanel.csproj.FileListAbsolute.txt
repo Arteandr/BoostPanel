@@ -1,7 +1,6 @@
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\bin\Debug\BoostPanel.exe.config
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\bin\Debug\BoostPanel.exe
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\bin\Debug\BoostPanel.pdb
-C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\BoostPanel.csprojAssemblyReference.cache
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\MainWindow.g.cs
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\App.g.cs
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\BoostPanel_MarkupCompile.cache
@@ -20,3 +19,6 @@ C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\GeneratedInterna
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\App.baml
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\Theme\MenuButtonTheme.baml
 C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\BoostPanel_Content.g.cs
+C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\MVVM\View\SettingsView.g.cs
+C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\MVVM\View\SettingsView.baml
+C:\Users\Arteandr\RiderProjects\BoostPanel\BoostPanel\obj\Debug\BoostPanel.csprojAssemblyReference.cache

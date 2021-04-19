@@ -1,4 +1,6 @@
-﻿using System.Windows.Input;
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Windows.Input;
 
 namespace BoostPanel
 {
@@ -14,7 +16,9 @@ namespace BoostPanel
 
         private void DraggablePanel_OnMouseDown(object sender, MouseButtonEventArgs e)
         {
-            this.DragMove();
+            DragMove();
         }
+        
+
     }
 }

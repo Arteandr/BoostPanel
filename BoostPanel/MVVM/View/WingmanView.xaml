@@ -7,7 +7,7 @@
              Height="450" Width="720"
              d:DesignHeight="450" d:DesignWidth="720">
     <StackPanel>
-        <TextBlock Text="Wingman panel"
+        <TextBlock Text="Wingman"
                    Foreground="WhiteSmoke"
                    FontSize="20"
                    HorizontalAlignment="Center"
@@ -20,7 +20,7 @@
                     <ColumnDefinition Width="360"/>
 
                 </Grid.ColumnDefinitions>
-            
+
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
@@ -126,7 +126,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
-                <ColumnDefinition/> 
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <Button 
@@ -141,6 +141,15 @@
                 Grid.Column="1" >
                 Запустить
             </Button>
+            <Button x:Name="AccountsLoadButton" 
+                Foreground="WhiteSmoke"
+                Cursor="Hand"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Width="100"
+                Height="30"
+                Background="#7289DA"
+                BorderBrush="Transparent" Content="Аккаунты" Margin="72,99,68,99" Click="AccountsLoadButton_Click" />
         </Grid>
     </StackPanel>
 </UserControl>

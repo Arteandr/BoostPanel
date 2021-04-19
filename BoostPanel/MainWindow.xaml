@@ -14,7 +14,7 @@
         AllowsTransparency="True" Title="Boost panel">
     
     <Window.DataContext>
-        <viewModel:MainViewModel/>
+        <viewModel:MainViewModel />
     </Window.DataContext>
     
     <Border
@@ -31,11 +31,11 @@
             </Grid.RowDefinitions>
             <TextBlock 
                 MouseDown="DraggablePanel_OnMouseDown"
-                Text="Панель"
                        Background="#1a1a1a"
                        VerticalAlignment="Center"
                        TextAlignment="Center"
                        Foreground="WhiteSmoke"
+                
                        FontSize="16" Height="25"/>
             <StackPanel Grid.Row="1" Grid.Column="0" Background="#23272A"/>
             <StackPanel Grid.Row="0" Grid.Column="1" Background="#1a1a1a" MouseDown="DraggablePanel_OnMouseDown"/>
@@ -45,7 +45,7 @@
                              Foreground="WhiteSmoke"
                              FontSize="15"
                              Style="{StaticResource MenuButtonTheme}"
-                             IsChecked="True"
+                             
                              Command="{Binding WingmanViewCommand}"/>
                 <RadioButton Content="Competitive"
                              Height="50"
@@ -58,14 +58,17 @@
                              Foreground="WhiteSmoke"
                              FontSize="15"
                              Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton 
+                    IsChecked="True"
+                    Content="Settings"
+                             Height="50"
+                             Foreground="WhiteSmoke"
+                             FontSize="15"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding SettingsViewCommand}"/>
+                
             </StackPanel>
             
-            <Image
-                Grid.Row="0"
-                HorizontalAlignment="Right"
-                Grid.Column="1"
-                Source="Image/close.png"
-                />   
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
                             Margin="10"

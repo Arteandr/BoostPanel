@@ -15,6 +15,9 @@
              <DataTemplate DataType="{x:Type viewModel:WingmanViewModel}">
                  <view:WingmanView/>
              </DataTemplate>
+             <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+                 <view:SettingsView/>
+             </DataTemplate>
          </ResourceDictionary>
     </Application.Resources>
 </Application>
